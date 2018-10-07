@@ -1,7 +1,8 @@
 html {
 	height: 100%;
-	font-family: serif;
-	background-image: url("img/seahawks.png");
+	font-family: sans-serif;
+	background-image: url("img/seahawks.PNG");
+	background-color: #000866;
 	height: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
