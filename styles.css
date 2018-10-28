@@ -1,7 +1,7 @@
 html {
 	height: 100%;
 	font-family: sans-serif;
-	background-image: url("../img/seahawks.PNG");
+	background-image: url("./img/seahawks.png");
 	background-color: #000866;
 	height: 100%;
 	background-position: center;
@@ -43,22 +43,6 @@ a:visited{
 	z-index: 2;
 	width: 80%;
 	padding: 20px;
-	text-align: center;
-}
-
-.about-me { 
-	background-color: rgb(0,0,0); /* Fallback color */
-	background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-	color: white;
-	font-weight: bold;
-	border: 2px solid #f1f1f1;
-	position: absolute;
-	top: 90%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	z-index: 2;
-	width: auto;
-	padding: 10px;
 	text-align: center;
 }
 
