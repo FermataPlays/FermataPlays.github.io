@@ -11,7 +11,8 @@ html {
 
 .navbar {
     overflow: hidden;
-    background-color: #A5ACAF;
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    border: 2px solid white;
     font-family: sans-serif;
 }
 

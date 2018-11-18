@@ -11,7 +11,8 @@ html {
 
 .navbar {
     overflow: hidden;
-    background-color: #A5ACAF;
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    border: 2px solid white;
     font-family: sans-serif;
 }
 
@@ -93,10 +94,13 @@ html {
 }
 
 .title-text a:visited {
-    color: white;
+    color: #21acde;
 }
 .title-text a:hover {
-    color: #d1d1d1;
+    color: #e6e6e6;
+}
+.title-text a:link {
+    color: rgb(255, 255, 255);
 }
 
 .title-text p, h3 {
