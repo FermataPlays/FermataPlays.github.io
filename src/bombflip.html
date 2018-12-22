@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130505053-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-130505053-1');
+    </script>
+
+    <title>Bash</title>
+    <link rel="stylesheet" href="./styles/bombflip.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <div class="projects-dropdown">
+            <button class="projects-button">Projects <i class="fa fa-caret-down"></i></button>
+            <div class="projects-dropdown-content">
+                <a href="bash.html">Bash</a>
+                <a href="bombflip.html">Bomb Flip</a>
+            </div>
+        </div>
+        
+        <a href="https://github.com/laurenbarry00/">GitHub</a>
+    </div>
+<div class="main-container">
+    <div class="title-text">
+        <img class="icon" src="img/card.png" alt="Bomb Flip icon" />
+        <h1>Bomb Flip</h1>
+        <div class="links">
+            <!-- Waiting on deploying the live game
+            <div class="play">
+                <a href="bash-docs/index.html">Play Game</a>
+            </div>
+            -->
+            <div class="github">
+                <a href="https://github.com/laurenbarry00/BombFlip">GitHub Repo</a>
+            </div>
+        </div>
+        <div class="content">    
+            <h3>About Bomb Flip</h3>
+            <p>
+                Bomb Flip is a web-based clone of <a href="https://bulbapedia.bulbagarden.net/wiki/Voltorb_Flip">Voltorb Flip</a>, a mini-game from Pokemon HeartGold/SoulSilver.
+            </p>
+            <img class="game-board" src="img/game-board.png" alt="An image of the Bomb Flip gameboard" />
+            <p>
+                The gameboard consists of a 5x5 grid of cards. Behind each card is either a 1, 2, 3, or a bomb. The object of the game is to reveal all of the numbered cards to score points without clicking a bomb. To do this, the player is given information on the number of points and bombs in each row and column. 
+            </p>
+            <h3>Future Plans</h3>
+            <p>
+                Planned improvements for Bomb Flip are to refractor the game script to utilize ReactJS and/or jQuery. Once this is improved, I am also planning on implementing unit tests with Mocha.
+            </p>
+        </div>  
+    </div>
+</div>
+</body>
+</html>
