@@ -1,7 +1,7 @@
 html {
 	height: 100%;
 	font-family: sans-serif;
-	background-image: url("../img/seahawks.PNG");
+	background-image: url("img/seahawks.PNG");
 	background-color: #55898A; /* Fallback color */
 	height: 100%;
 	background-repeat: no-repeat;
