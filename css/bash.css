@@ -1,7 +1,7 @@
 html {
     height: 100%;
     font-family: sans-serif;
-    background-image: url("img/seahawks.PNG");
+    background-image: url("../img/seahawks.png");
     background-color: #55898A; /* Fallback color */
     height: 100%;
     background-position: center;
@@ -88,7 +88,7 @@ html {
     border: 3px solid #ffffff;
     top: 5%;
     display: inline-block;
-    transform: translate(1%, 3%);
+    transform: translate(1%, 5%);
     z-index: 2;
     padding: 50px;
     text-align: center;
@@ -96,10 +96,13 @@ html {
 }
 
 .title-text a:visited {
-    color: white;
+    color: #21acde;
 }
 .title-text a:hover {
-    color: #d1d1d1;
+    color: #e6e6e6;
+}
+.title-text a:link {
+    color: rgb(255, 255, 255);
 }
 
 .title-text p, h3 {
@@ -107,21 +110,26 @@ html {
     text-align: left;
 }
 
-.content {
+img {
+    width: 100px;
+}
+
+.bash-links {
     display: inline-block;
     padding: 5px;
 }
 
-img {
-    height: 300px;
-}
-.image {
+.javadocs {
     float: left;
-    padding-right: 30px;
+    padding: 5px;
 }
 
-.text-content {
-    text-align: left;
-    display: block;
-    max-width: 700px;
+.github {
+    float: left;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.content {
+    float: left;
 }
